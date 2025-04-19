@@ -1,0 +1,809 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.46f1 (fb93bc360d3a) revision 16487356'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+C:/Users/compu/git/unity-game/sci-tactics
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+49898
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/compu/git/unity-game/sci-tactics
+C:/Users/compu/git/unity-game/sci-tactics
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26952]  Target information:
+
+Player connection [26952]  * "[IP] 192.168.0.33 [Port] 0 [Flags] 2 [Guid] 1241473572 [EditorId] 1241473572 [Version] 1048832 [Id] WindowsEditor(7,wet-again) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26952]  * "[IP] 192.168.0.39 [Port] 0 [Flags] 2 [Guid] 1241473572 [EditorId] 1241473572 [Version] 1048832 [Id] WindowsEditor(7,wet-again) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26952] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26952] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.46f1 (fb93bc360d3a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/compu/git/unity-game/sci-tactics/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7260
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005334 seconds.
+- Loaded All Assemblies, in  0.469 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (176ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.935 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 1810ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (625ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (197ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (883ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6147 unused Assets / (4.6 MB). Loaded Objects now: 6770.
+Memory consumption went from 163.3 MB to 158.6 MB.
+Total: 18.371600 ms (FindLiveObjects: 2.111100 ms CreateObjectMapping: 0.744600 ms MarkObjects: 9.805500 ms  DeleteObjects: 5.708000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13151.965112 seconds.
+  path: Assets/Assets.index
+  artifactKey: Guid(3bf1d612212e7c746a9f58f95020d5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(3bf1d612212e7c746a9f58f95020d5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd049de2e6927a3ebfe22d132b35e9f57') in 0.0499633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Tiles/Animated Tile/Animated Tile.unity
+  artifactKey: Guid(3c0087e4ddaa8674c955f2e8946dcab8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Tiles/Animated Tile/Animated Tile.unity using Guid(3c0087e4ddaa8674c955f2e8946dcab8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32156f26a1062dc9be61416c1ab81b52') in 0.1967058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/characterAnimations/tileSetOutline.png
+  artifactKey: Guid(a6483feaf2c14ea45ac1d7d598589cbe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/characterAnimations/tileSetOutline.png using Guid(a6483feaf2c14ea45ac1d7d598589cbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1937698d6ba00a3d5b3d7ac806c003dc') in 0.1001803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/techdemo-Assets/Tilemap/PaletteSwap/Tile Palettes/Swap Palette C.prefab
+  artifactKey: Guid(387b339880f70324db0d3c3e7ef82176) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/PaletteSwap/Tile Palettes/Swap Palette C.prefab using Guid(387b339880f70324db0d3c3e7ef82176) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '908aa51440757b1414b895a6ca36697d') in 0.0464741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Tiles/Random Tile/Random Tile.unity
+  artifactKey: Guid(726a9c6b591ea7c43b6f02b6c3d3c49d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Tiles/Random Tile/Random Tile.unity using Guid(726a9c6b591ea7c43b6f02b6c3d3c49d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e9faef015690c7a245d08d958968dd7') in 0.0241687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Brushes/Tint Brush/TilePalettes/Tint.prefab
+  artifactKey: Guid(be3f3f9fe52fee94fb5a43a2c7303934) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Brushes/Tint Brush/TilePalettes/Tint.prefab using Guid(be3f3f9fe52fee94fb5a43a2c7303934) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aa9aec3def71f3415ff5dba99ea839a') in 0.0325728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_45.asset
+  artifactKey: Guid(2e08795a8650e514ea04fb9bb11b2a3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_45.asset using Guid(2e08795a8650e514ea04fb9bb11b2a3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d056d48e1dee0a4d33e2b2b650f1b9d') in 0.0322144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_16.asset
+  artifactKey: Guid(591644c68b32a954ba64d291fceed9b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_16.asset using Guid(591644c68b32a954ba64d291fceed9b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ed2a6635072143b4f02d78c8c651d31') in 0.0244308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_27.asset
+  artifactKey: Guid(30f98488c97193a4297e833e71136f5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_27.asset using Guid(30f98488c97193a4297e833e71136f5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af17c454edfa7db5212a65027e1fabc0') in 0.0229974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Rule Override Tile/ExampleSiblingRuleTile.cs
+  artifactKey: Guid(4845ebe4dd65e4eb6be11105e9484751) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Rule Override Tile/ExampleSiblingRuleTile.cs using Guid(4845ebe4dd65e4eb6be11105e9484751) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26df9f27ff69a6c0c7299a1afadaee4e') in 0.0162867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Tiles/Animated Tile/Tile Asset
+  artifactKey: Guid(7ebf40c39d482f34aa6edc56260f34f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Tiles/Animated Tile/Tile Asset using Guid(7ebf40c39d482f34aa6edc56260f34f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b82a6a969dae48a06e8bc86da1cefd80') in 0.0123432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles
+  artifactKey: Guid(d8605f318209a864db84ff2549077d4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles using Guid(d8605f318209a864db84ff2549077d4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dea4579bdf2b22e2ff2236bd296fd022') in 0.013957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Colliders/ColliderSprites/stairs-border.png
+  artifactKey: Guid(063edbe48872b4ab39d61247bfbc7217) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Colliders/ColliderSprites/stairs-border.png using Guid(063edbe48872b4ab39d61247bfbc7217) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ea390698a3f21480a8dc296b093ec3a') in 0.0251755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tileset
+  artifactKey: Guid(0055893d28276e7418722646818ad0fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tileset using Guid(0055893d28276e7418722646818ad0fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fddfd6f6316e2716cb0cd67434209097') in 0.0119004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Brick/Sprites
+  artifactKey: Guid(ac8de39afddc3a846a0018c6938b33e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Brick/Sprites using Guid(ac8de39afddc3a846a0018c6938b33e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49f76dd52e58b2483bc4a6fd1ee3c2a2') in 0.0133067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/spritesheet_26.asset
+  artifactKey: Guid(5770f962ce428ac44929239c3dc8c6a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tileset/spritesheet_26.asset using Guid(5770f962ce428ac44929239c3dc8c6a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6dd16bcaadcdf058e3478d1a4d59cd9') in 0.0154966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_64.asset
+  artifactKey: Guid(e93a9f13f9218c44fb2a881c757a17ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_64.asset using Guid(e93a9f13f9218c44fb2a881c757a17ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c4b2aad33ec340be7645088987009b4') in 0.0231569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_56.asset
+  artifactKey: Guid(588f9674ba0ea604889c60153d482f56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_56.asset using Guid(588f9674ba0ea604889c60153d482f56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4193145142d91c2341ca6e579e7423f3') in 0.0225737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_57.asset
+  artifactKey: Guid(09b7ca64206a2814499e4a2f37ae6cbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_57.asset using Guid(09b7ca64206a2814499e4a2f37ae6cbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d30a07a1cf3381e4d8886bd8fa92ba1') in 0.0219461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_48.asset
+  artifactKey: Guid(9dbc8277008481245871467aac0728b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_48.asset using Guid(9dbc8277008481245871467aac0728b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a72a9c9542b92e714a181fe6e5afcc8d') in 0.0254532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run E/witch run E05.png
+  artifactKey: Guid(ea836e1730ade47a9a1cdc6ff307c4ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run E/witch run E05.png using Guid(ea836e1730ade47a9a1cdc6ff307c4ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02db21608aeb64a12797e38bd72f56a0') in 0.0215858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Custom Rule Tile/Tile Asset/desert.asset
+  artifactKey: Guid(fd4866eb9d1a06848ab3c45efa4e5a71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Custom Rule Tile/Tile Asset/desert.asset using Guid(fd4866eb9d1a06848ab3c45efa4e5a71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd19443f2bfa2d585c7899e290c45eb7f') in 0.0289484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat/desert-sliced_01.png
+  artifactKey: Guid(3997bbb2174dc6342bee8b8803a2ffe2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat/desert-sliced_01.png using Guid(3997bbb2174dc6342bee8b8803a2ffe2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ff9fd293caef36215f41485679ed6bf') in 0.020217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run N/witch run N01.png
+  artifactKey: Guid(209f0f2ca47ab4d8bb6397b267227942) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run N/witch run N01.png using Guid(209f0f2ca47ab4d8bb6397b267227942) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbaf584cd6e4a61dfc9b2f182a908049') in 0.0208418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Brushes
+  artifactKey: Guid(43e293f28d16b1e49a0e7065fabda4f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Brushes using Guid(43e293f28d16b1e49a0e7065fabda4f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f488870293792224af07874b44893589') in 0.012176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Animated Ocean Tile/Tile Asset/Ocean.asset
+  artifactKey: Guid(a10819c4563bea64083e352e6653e073) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Animated Ocean Tile/Tile Asset/Ocean.asset using Guid(a10819c4563bea64083e352e6653e073) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8970be36f3cf40dfb43dfa5030cb6591') in 0.0190103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Custom Rule Tile/Tile Asset/grass.asset
+  artifactKey: Guid(5e9bd9dfc1e43e74bb30f0e5ac0f1b0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Custom Rule Tile/Tile Asset/grass.asset using Guid(5e9bd9dfc1e43e74bb30f0e5ac0f1b0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '749e85733b5e63e931c2718ac6a1ed12') in 0.0248724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Custom Rule Tile/Tile Asset/CustomGrassRoadTile.asset
+  artifactKey: Guid(a0e3cdaac7e954d45a298b071069b413) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Custom Rule Tile/Tile Asset/CustomGrassRoadTile.asset using Guid(a0e3cdaac7e954d45a298b071069b413) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8775a0e834b2072d27b955d4a5e09232') in 0.024061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Destructible/Scripts/MouseClickBomb.cs
+  artifactKey: Guid(6342e0f2142eb2b44a0f9333eff57f68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Destructible/Scripts/MouseClickBomb.cs using Guid(6342e0f2142eb2b44a0f9333eff57f68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84076fc4b6503f6975de281671963f76') in 0.0124515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run NE/witch run NE01.png
+  artifactKey: Guid(4c0cff268c40d40cc95641209b04439e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run NE/witch run NE01.png using Guid(4c0cff268c40d40cc95641209b04439e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b848fec0ce4ca251ed1224b1aff0677c') in 0.0235116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationClips/Run S.anim
+  artifactKey: Guid(ed10fe431e796431dbbc83f6fcb4eacc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationClips/Run S.anim using Guid(ed10fe431e796431dbbc83f6fcb4eacc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08d82539cc9b62478c337ef9f8a92b46') in 0.0221564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile 2/Atlas
+  artifactKey: Guid(ebb0dad67452bc04cad09da4519a9bdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile 2/Atlas using Guid(ebb0dad67452bc04cad09da4519a9bdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7e967ed4e8004f4196fe8d0637d9711') in 0.0136055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile 3/Sprites
+  artifactKey: Guid(8dc1e8f9e81d7a44ab9e187717cc8812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile 3/Sprites using Guid(8dc1e8f9e81d7a44ab9e187717cc8812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7418b2a309069a82fb949bde455d344e') in 0.0121472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile/Atlas/Platformer.spriteatlas
+  artifactKey: Guid(38100059a940f014dac730fb9eebee32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile/Atlas/Platformer.spriteatlas using Guid(38100059a940f014dac730fb9eebee32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a34ca71363c1e3cb7a69087fde14dcf') in 0.0250766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Tiles/Random Tile/Tile Assets/RandomTempleGrassTile.asset
+  artifactKey: Guid(36f6dda10e473614da03dbc9b8a9775c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Tiles/Random Tile/Tile Assets/RandomTempleGrassTile.asset using Guid(36f6dda10e473614da03dbc9b8a9775c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '534d2bb2eb3c57bde0ab673a74f832a3') in 0.0235138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile 3/Tile Asset/platform3.asset
+  artifactKey: Guid(741b9ba1e1c83354db503a5ce9efa70e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Platform Tile 3/Tile Asset/platform3.asset using Guid(741b9ba1e1c83354db503a5ce9efa70e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'addabcb89a55e4976e75d4fd861bc8e4') in 0.0151227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationClips/Run N.anim
+  artifactKey: Guid(fb80351f3d8f44225b396b3369cd6a6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationClips/Run N.anim using Guid(fb80351f3d8f44225b396b3369cd6a6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5f9c2b8a6ee9f8e9b2d3efa3be3f9bd') in 0.0160588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Tiles/Terrain Tile/Sprite Atlas/Terrain Tiles.spriteatlas
+  artifactKey: Guid(52329f8c1c2ac6c42aea22ded1034451) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Tiles/Terrain Tile/Sprite Atlas/Terrain Tiles.spriteatlas using Guid(52329f8c1c2ac6c42aea22ded1034451) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6844b1c837da30873237b4b53ea34d99') in 0.0266084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Destructible/Tile Assets/Destructible.asset
+  artifactKey: Guid(bf0431a874bdd5b43ac4304f0a12b3b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Destructible/Tile Assets/Destructible.asset using Guid(bf0431a874bdd5b43ac4304f0a12b3b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3685cd3bb1cef91b5cf3f783eccc7a9') in 0.0156142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Destructible/Explosion
+  artifactKey: Guid(9974adf9cb816e94c8202dd77d1cb86c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Destructible/Explosion using Guid(9974adf9cb816e94c8202dd77d1cb86c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6d01990edea8247a8a2b7c4ddb83d12') in 0.0099472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/PaletteSwap/Tile Palettes
+  artifactKey: Guid(1eee44f0e3a7d064cbcadd12e13dd6a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/PaletteSwap/Tile Palettes using Guid(1eee44f0e3a7d064cbcadd12e13dd6a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96795ef4f56ae3b4d004fb887fee2d97') in 0.0125525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run SE/witch run SE05.png
+  artifactKey: Guid(1d638e07f62b140fc8c3604b32bbaa3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run SE/witch run SE05.png using Guid(1d638e07f62b140fc8c3604b32bbaa3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '192cf7746a57576a9915f9bae3e9be8c') in 0.027155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Colliders/ColliderTiles
+  artifactKey: Guid(ac75bdc8c457dbd4d8d32c15f167c957) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Colliders/ColliderTiles using Guid(ac75bdc8c457dbd4d8d32c15f167c957) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '857a9bbc1f8e7b5344c1f37df6c7a9c8') in 0.0173385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Animated Ocean Tile/Sprites
+  artifactKey: Guid(a6fab94d967673f4dadaf7d7dba5dbdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Animated Ocean Tile/Sprites using Guid(a6fab94d967673f4dadaf7d7dba5dbdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dd3ce32dd7d51483dcdcab5af2cb84f') in 0.0135628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run NE/witch run NE04.png
+  artifactKey: Guid(ece1112da122147a783247177dc5c414) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run NE/witch run NE04.png using Guid(ece1112da122147a783247177dc5c414) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cda27d7f29a8756798230da65386f172') in 0.0288045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run E/witch run E02.png
+  artifactKey: Guid(2e8b908b455934eaab9d3589c19fe2fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run E/witch run E02.png using Guid(2e8b908b455934eaab9d3589c19fe2fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '947225baeb33d04845110cdb26ce89ce') in 0.0225652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run NE/witch run NE00.png
+  artifactKey: Guid(fd663cfefc8e74e17b188571fa2c2e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run NE/witch run NE00.png using Guid(fd663cfefc8e74e17b188571fa2c2e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24d344f3f96436bdbd898a9350d81289') in 0.0205581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run E/witch run E01.png
+  artifactKey: Guid(c1a8839b406914083af460fe590233d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Run E/witch run E01.png using Guid(c1a8839b406914083af460fe590233d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '424c52fdce90e1079f9a5f449c72a2c5') in 0.0199051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Static/witch static06.png
+  artifactKey: Guid(0a91f6ffdd6c74fc2bbe0ca9bcd3b52d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Characters/Witch/AnimationSprites/Static/witch static06.png using Guid(0a91f6ffdd6c74fc2bbe0ca9bcd3b52d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f98c5cd666f296667ece281c82d93951') in 0.0228778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_61.png
+  artifactKey: Guid(3e6f4dd2f9f1d39498413685594f5bac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_61.png using Guid(3e6f4dd2f9f1d39498413685594f5bac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '879e149435f56cb0a925a1e4b1d43a0a') in 0.0217727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat/desert-sliced_14.png
+  artifactKey: Guid(2ee43175fe272a24ba3ef1aa441cae17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat/desert-sliced_14.png using Guid(2ee43175fe272a24ba3ef1aa441cae17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60e4ee72f5af660df0ba3b7b44075335') in 0.0210808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY
+  artifactKey: Guid(9577e5ace3e453c4d8ef3521169b7db6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY using Guid(9577e5ace3e453c4d8ef3521169b7db6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '169666dc2dbfd31c144bc2fd92b4f93b') in 0.0142736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/spritesheet_3.asset
+  artifactKey: Guid(c4d70bab893077642b425141608c2461) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tileset/spritesheet_3.asset using Guid(c4d70bab893077642b425141608c2461) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1d29d45c22e2f2b155b93162bc16201') in 0.015971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_56.png
+  artifactKey: Guid(1ca26f020a1a57145bd237282c36196f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_56.png using Guid(1ca26f020a1a57145bd237282c36196f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0df3a5922ad220e65005748f026785ec') in 0.0230191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_64.png
+  artifactKey: Guid(f77a8439147b8f042ab1d13d5d78e902) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Decoration/desert-sliced_64.png using Guid(f77a8439147b8f042ab1d13d5d78e902) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd51c4c95ef7b731616eb5f313fcdb6c5') in 0.0219978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_71.asset
+  artifactKey: Guid(9484d82b552f2d44e82d58195d7fdad6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_71.asset using Guid(9484d82b552f2d44e82d58195d7fdad6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c66692c89280383d6a87256388ae23cb') in 0.0261423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Brick/Sprites/Ball.png
+  artifactKey: Guid(eff080ca3ace8a04d895f3147e146c55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Brick/Sprites/Ball.png using Guid(eff080ca3ace8a04d895f3147e146c55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '827e86c4e55477d0eb69a0e00c9e3953') in 0.026455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Dungeon Tile/Atlas
+  artifactKey: Guid(2b71014dff522bf418f43b19a50420a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Dungeon Tile/Atlas using Guid(2b71014dff522bf418f43b19a50420a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6b4821ea02e1d932cee1b57fee0f521') in 0.0105571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Brick/TilePalettes
+  artifactKey: Guid(4bbb98150b52c38409a211dc0cbf06fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Brick/TilePalettes using Guid(4bbb98150b52c38409a211dc0cbf06fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd051608fbd19da200964780915610884') in 0.0143629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Scenes
+  artifactKey: Guid(ee73a6c16682c3048b5bcc719bfc3f8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Scenes using Guid(ee73a6c16682c3048b5bcc719bfc3f8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7683f4e990fbf47485564089331e1706') in 0.0123378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat
+  artifactKey: Guid(95f4e82071e8f7d4e83bb17a463f69a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat using Guid(95f4e82071e8f7d4e83bb17a463f69a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9645e447c5f257ff76a3d02964ba110') in 0.01177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Foliage Tile/Tile Asset
+  artifactKey: Guid(309bf9310c6b54344bfd1b53a20527c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Foliage Tile/Tile Asset using Guid(309bf9310c6b54344bfd1b53a20527c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5cf2016f23a7056e0d0855a63b4fcea') in 0.0105412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/spritesheet_104.asset
+  artifactKey: Guid(8fd1be9c101691d44b8d5ab7d5d465de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tileset/spritesheet_104.asset using Guid(8fd1be9c101691d44b8d5ab7d5d465de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba75381adeeeacf652c24db62b8a14db') in 0.0160183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Normal Mapping/Material/Shader
+  artifactKey: Guid(40011fcc26191b64787ba06b9bed664b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Normal Mapping/Material/Shader using Guid(40011fcc26191b64787ba06b9bed664b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2198d71b3db841a2ca2c81ca6b4d05f8') in 0.0144441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/spritesheet_111.asset
+  artifactKey: Guid(645d62084c7f9d2489dabc1b5cabfcf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tileset/spritesheet_111.asset using Guid(645d62084c7f9d2489dabc1b5cabfcf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51fc95be7d2bbd5664eecf3425726c03') in 0.0181972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_61.asset
+  artifactKey: Guid(c083ca08c2f52f14395c55a9ce429b40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Hexagonal/Tiles/Palette/phlosioneer_hex_coastline_61.asset using Guid(c083ca08c2f52f14395c55a9ce429b40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35dec105eb2d2ed7c21abcf95d2886af') in 0.0227579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Dungeon Tile/Atlas/Dungeon.spriteatlas
+  artifactKey: Guid(4bef31d7092412c4b8c3b9da120b8a74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Dungeon Tile/Atlas/Dungeon.spriteatlas using Guid(4bef31d7092412c4b8c3b9da120b8a74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ffad6436e41e29dddc88307a5cd5dcd') in 0.0260454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Rule Override Tile
+  artifactKey: Guid(d20fb67d51d21cf44bdf1fe43031480b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Rule Override Tile using Guid(d20fb67d51d21cf44bdf1fe43031480b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aa2b79e4673a700c8e8c844c22b1170') in 0.0137999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Foliage Tile
+  artifactKey: Guid(0022c0e9d6ddc0c4d9c611c4abd5f660) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Foliage Tile using Guid(0022c0e9d6ddc0c4d9c611c4abd5f660) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72ed6d454032003ef75a763a08bcbca9') in 0.0144668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Foliage Tile/Sprites
+  artifactKey: Guid(ff0477de0a4b38c4eaf86a66da90dbfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Foliage Tile/Sprites using Guid(ff0477de0a4b38c4eaf86a66da90dbfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f099e01c906e285a9e69fc250ff29189') in 0.0132091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Colliders
+  artifactKey: Guid(84b22ad1013226146a91a952d049e94c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Colliders using Guid(84b22ad1013226146a91a952d049e94c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '121dfe1928506bbfefcea0d023a6b714') in 0.0131709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat/desert-sliced_17.png
+  artifactKey: Guid(4495010f0f608e84498564b6ae27cfff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Tilemaps/Isometric/Sprites/Desert/Flat/desert-sliced_17.png using Guid(4495010f0f608e84498564b6ae27cfff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59da2d453e07ee68d0807d248fd0c3fc') in 0.0204581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Rule Tiles/Rule Override Tile/Tile Asset/Terrain.asset
+  artifactKey: Guid(4eecde95157922c458b7abbb88b4db31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Rule Tiles/Rule Override Tile/Tile Asset/Terrain.asset using Guid(4eecde95157922c458b7abbb88b4db31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf771c8da8fbb88c69a61fcbf6a3a6d7') in 0.0166782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Normal Mapping/Sprites/NormalMappedPlatform.asset
+  artifactKey: Guid(26dee6f5b430f3740b45d75238666de2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Normal Mapping/Sprites/NormalMappedPlatform.asset using Guid(26dee6f5b430f3740b45d75238666de2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56b0f5eccf0f0eb9eaba02c16673fd7c') in 0.0164706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Tiles/Animated Tile/Tile Asset/WaterfallMain.asset
+  artifactKey: Guid(f3abecf6a5b1baa46a729a298ae473b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Tiles/Animated Tile/Tile Asset/WaterfallMain.asset using Guid(f3abecf6a5b1baa46a729a298ae473b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48e17b59801f6006890d99f0b0b0be5e') in 0.0226449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/techdemo-Assets/Tilemap/IsometricZAsY/Scenes/Scene_Biome_Desert_ZAsY.unity
+  artifactKey: Guid(5a724eab55b0ddb4baad3dd6c8be5480) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/IsometricZAsY/Scenes/Scene_Biome_Desert_ZAsY.unity using Guid(5a724eab55b0ddb4baad3dd6c8be5480) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14f4fc41253e97146cceba6bbbe6ec56') in 0.0340096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/techdemo-Assets/Tilemap/Destructible/Palette
+  artifactKey: Guid(c718d9346968db3448f5ca207ea98237) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/techdemo-Assets/Tilemap/Destructible/Palette using Guid(c718d9346968db3448f5ca207ea98237) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faf3f929f0529fb942399cdafa2cc8d3') in 0.0137544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
