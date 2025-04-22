@@ -23,18 +23,16 @@ public class Game : MonoBehaviour
 
         foreach (GameObject character in iCharacters) {
             // First make sure the character is on a cell
-            Vector3 cellCenter = iTilemap.GetCellCenterWorld(character.transform.position.ConvertTo<Vector3Int>());
-            character.transform.Translate(cellCenter - character.transform.position);
+            // Vector3 cellCenter = iTilemap.GetCellCenterWorld(character.transform.position.ConvertTo<Vector3Int>());
+            // character.transform.Translate(cellCenter - character.transform.position);
 
             // Now check if the character needs to move
-            if (playerMove.x > 0 || playerMove.y > 0) {
-                Vector3 newPosition = iTilemap.GetCellCenterWorld(new Vector3Int(
-                    character.transform.position.x + Math.Ceiling(playerMove.x),
-                    character.transform.position.y + Math.Ceiling(playerMove.y),
-                    character.transform.position.z
-                )
-                );
-                character.transform.Translate(newPosition);
+            if (iMoveAction.WasPressedThisFrame()) {
+                Vector3Int playerCell = iTilemap.WorldToCell(character.transform.position);
+                playerCell.x = (int)(playerCell.x + playerMove.x);
+                playerCell.y = (int)(playerCell.y + playerMove.y);
+                Vector3 newPosition = iTilemap.GetCellCenterWorld(playerCell);
+                character.transform.Translate(newPosition - character.transform.position);
             }
         }
     }
